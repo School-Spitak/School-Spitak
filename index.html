@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Class Reunion — One Year Later">
+    <title>One Year Later · Class Reunion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ================= SECTION 1 ================= -->
+    <section id="section1">
+    <div class="hero-top">
+        <span class="eyebrow">class of 2025</span>
+        <h1 class="hero-title">One Year Later</h1>
+        <p class="hero-sub">
+            We tossed our caps in the air a year ago.<br>
+            Open the letter — it's time to meet again.
+        </p>
+    </div>
+
+    <div class="animation-container" id="svgAnimation">
+        <svg viewBox="0 0 140 200" aria-hidden="true">
+            <g class="envelope-container">
+                <rect class="envelope-body"
+                      x="10" y="100" width="120" height="50"
+                      rx="10" ry="10" />
+                <polygon class="envelope-flap"
+                         points="20,100 70,55 120,100" />
+            </g>
+
+            <g class="paper-group">
+                <rect class="paper"
+                      x="15" y="40" width="110" height="120"
+                      rx="8" ry="8" />
+                <line class="paper-line" x1="30" y1="65"  x2="110" y2="65" />
+                <text class="paper-text" x="70" y="95" text-anchor="middle"
+                      font-size="18" fill="#8c5799"
+                      font-family="Arial" font-weight="bold">Welcome</text>
+                <text class="paper-text" x="70" y="120" text-anchor="middle"
+                      font-size="11" fill="#8c5799"
+                      font-family="Arial">to our reunion</text>
+                <line class="paper-line" x1="30" y1="145" x2="110" y2="145" />
+            </g>
+        </svg>
+    </div>
+
+    <div class="scroll-hint">scroll ↓</div>
+</section>
+
+    <!-- ================= SECTION 2 — Polaroid wall ================= -->
+    <section id="section2">
+        <div class="section-head">
+            <span class="eyebrow">remember when</span>
+            <h2>Moments we kept</h2>
+            <p>Photos from the yearbook, hover to straighten them out.</p>
+        </div>
+
+        <div class="polaroid-wall">
+            <figure class="polaroid tilt-1">
+                <!--data-label="📸" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuKsrv2oCd-ebfgI95Xm6pqcsEh3gLJodqRA&s')" -->
+                <div class="polaroid-img"  >
+                    <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuKsrv2oCd-ebfgI95Xm6pqcsEh3gLJodqRA&s"/>
+                </div>
+                <figcaption>Prom night</figcaption>
+            </figure>
+            <figure class="polaroid tilt-2">
+                <div class="polaroid-img" data-label="🎓"></div>
+                <figcaption>Graduation day</figcaption>
+            </figure>
+            <figure class="polaroid tilt-3">
+                <div class="polaroid-img" data-label="🏫"></div>
+                <figcaption>Last day of class</figcaption>
+            </figure>
+            <figure class="polaroid tilt-4">
+                <div class="polaroid-img" data-label="🎉"></div>
+                <figcaption>After-party</figcaption>
+            </figure>
+            <figure class="polaroid tilt-5">
+                <div class="polaroid-img" data-label="⚽"></div>
+                <figcaption>Sports finals</figcaption>
+            </figure>
+            <figure class="polaroid tilt-6">
+                <div class="polaroid-img" data-label="🎭"></div>
+                <figcaption>Drama club</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- ================= SECTION 3 — Horizontal parallax ================= -->
+    <section id="section3">
+        <div class="section-head">
+            <span class="eyebrow">one year later</span>
+            <h2>Where life took us</h2>
+        </div>
+
+        <div class="parallax-rows">
+            <div class="parallax-row">
+                <div class="parallax-track" data-direction="left">
+                    <div class="chip chip-gold">🎓 University</div>
+                    <div class="chip chip-purple">✈️ Travel</div>
+                    <div class="chip chip-mint">💼 First job</div>
+                    <div class="chip chip-gold">🎨 Art school</div>
+                    <div class="chip chip-purple">☕ Coffee dates</div>
+                </div>
+            </div>
+
+            <div class="parallax-row">
+                <div class="parallax-track" data-direction="right">
+                    <div class="chip chip-mint">🏡 Moved out</div>
+                    <div class="chip chip-gold">📚 Late-night study</div>
+                    <div class="chip chip-purple">🎸 A new band</div>
+                    <div class="chip chip-mint">🐕 Got a dog</div>
+                    <div class="chip chip-gold">🏆 First promotion</div>
+                </div>
+            </div>
+
+            <div class="parallax-row">
+                <div class="parallax-track" data-direction="left">
+                    <div class="chip chip-purple">💍 Engagements</div>
+                    <div class="chip chip-mint">🌍 Study abroad</div>
+                    <div class="chip chip-gold">📷 New hobbies</div>
+                    <div class="chip chip-purple">🎬 Film festivals</div>
+                    <div class="chip chip-mint">🍰 Birthdays apart</div>
+                </div>
+            </div>
+        </div>
+
+        <p class="parallax-note">…and now it's time to share the rest in person.</p>
+    </section>
+
+    <!-- ================= SECTION 4 — Yearbook stats ================= -->
+    <section id="section4">
+        <div class="section-head">
+            <span class="eyebrow">the class of</span>
+            <h2>A year in numbers</h2>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <svg viewBox="0 0 64 64" class="stat-ico" aria-hidden="true">
+                    <path d="M32 10 L60 22 L32 34 L4 22 Z" fill="#e8b860"/>
+                    <path d="M16 28 v10 c0 6 8 10 16 10 s16-4 16-10 v-10" fill="none" stroke="#8c5799" stroke-width="3" stroke-linecap="round"/>
+                    <line x1="60" y1="22" x2="60" y2="38" stroke="#8c5799" stroke-width="3" stroke-linecap="round"/>
+                    <circle cx="60" cy="40" r="3" fill="#8c5799"/>
+                </svg>
+                <div class="stat-num">128</div>
+                <div class="stat-label">graduates</div>
+            </div>
+
+            <div class="stat-card">
+                <svg viewBox="0 0 64 64" class="stat-ico" aria-hidden="true">
+                    <circle cx="32" cy="32" r="24" fill="#a8d8c8"/>
+                    <path d="M8 32 q24 -20 48 0" fill="none" stroke="#8c5799" stroke-width="3"/>
+                    <path d="M8 32 q24 20 48 0" fill="none" stroke="#8c5799" stroke-width="3"/>
+                    <line x1="32" y1="8" x2="32" y2="56" stroke="#8c5799" stroke-width="3"/>
+                </svg>
+                <div class="stat-num">17</div>
+                <div class="stat-label">countries visited</div>
+            </div>
+
+            <div class="stat-card">
+                <svg viewBox="0 0 64 64" class="stat-ico" aria-hidden="true">
+                    <rect x="10" y="14" width="44" height="40" rx="4" fill="#f3e5ff" stroke="#8c5799" stroke-width="3"/>
+                    <line x1="10" y1="24" x2="54" y2="24" stroke="#8c5799" stroke-width="3"/>
+                    <line x1="20" y1="8"  x2="20" y2="20" stroke="#8c5799" stroke-width="3" stroke-linecap="round"/>
+                    <line x1="44" y1="8"  x2="44" y2="20" stroke="#8c5799" stroke-width="3" stroke-linecap="round"/>
+                    <circle cx="32" cy="38" r="4" fill="#e8b860"/>
+                </svg>
+                <div class="stat-num">365</div>
+                <div class="stat-label">days apart</div>
+            </div>
+
+            <div class="stat-card">
+                <svg viewBox="0 0 64 64" class="stat-ico" aria-hidden="true">
+                    <path d="M32 52 s-20-12-20-26 a10 10 0 0 1 20-4 a10 10 0 0 1 20 4 c0 14-20 26-20 26 z"
+                          fill="#f3b8c8" stroke="#8c5799" stroke-width="3" stroke-linejoin="round"/>
+                </svg>
+                <div class="stat-num">∞</div>
+                <div class="stat-label">friendships kept</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= SECTION 5 — Event details ================= -->
+    <section id="section5">
+    <div class="event-card">
+        <svg class="event-crest" viewBox="0 0 120 120" aria-hidden="true">
+            <circle cx="60" cy="60" r="54" fill="#fff6e5" stroke="#e8b860" stroke-width="3"/>
+            <path d="M60 30 L94 46 L60 62 L26 46 Z" fill="#e8b860"/>
+            <path d="M40 52 v12 c0 8 10 14 20 14 s20-6 20-14 v-12" fill="none" stroke="#8c5799" stroke-width="3" stroke-linecap="round"/>
+            <line x1="94" y1="46" x2="94" y2="70" stroke="#8c5799" stroke-width="3" stroke-linecap="round"/>
+            <circle cx="94" cy="72" r="3" fill="#8c5799"/>
+            <text x="60" y="100" text-anchor="middle" font-family="Georgia, serif"
+                  font-size="10" fill="#8c5799" font-weight="bold" letter-spacing="2">REUNION</text>
+        </svg>
+
+        <span class="eyebrow">save the date</span>
+        <h2 class="event-title">Class of 2025 · One Year Reunion</h2>
+
+        <div class="event-details">
+            <div class="event-item">
+                <svg viewBox="0 0 48 48" class="event-ico" aria-hidden="true">
+                    <rect x="6" y="10" width="36" height="32" rx="4"
+                          fill="#f3e5ff" stroke="#8c5799" stroke-width="2.5"/>
+                    <line x1="6" y1="18" x2="42" y2="18" stroke="#8c5799" stroke-width="2.5"/>
+                    <line x1="16" y1="4"  x2="16" y2="14" stroke="#8c5799" stroke-width="2.5" stroke-linecap="round"/>
+                    <line x1="32" y1="4"  x2="32" y2="14" stroke="#8c5799" stroke-width="2.5" stroke-linecap="round"/>
+                    <circle cx="24" cy="30" r="4" fill="#e8b860"/>
+                </svg>
+                <div>
+                    <div class="event-key">When</div>
+                    <div class="event-val">Saturday, June 14, 2026 · 6:00 PM</div>
+                </div>
+            </div>
+
+            <div class="event-item">
+                <svg viewBox="0 0 48 48" class="event-ico" aria-hidden="true">
+                    <path d="M24 44 s-14-12-14-24 a14 14 0 0 1 28 0 c0 12-14 24-14 24 z"
+                          fill="#a8d8c8" stroke="#8c5799" stroke-width="2.5" stroke-linejoin="round"/>
+                    <circle cx="24" cy="20" r="5" fill="#fff6e5" stroke="#8c5799" stroke-width="2.5"/>
+                </svg>
+                <div>
+                    <div class="event-key">Where</div>
+                    <div class="event-val">Old Oak High School · 142 Maple Avenue, Springfield</div>
+                </div>
+            </div>
+
+            <div class="event-item">
+                <svg viewBox="0 0 48 48" class="event-ico" aria-hidden="true">
+                    <circle cx="24" cy="24" r="18" fill="#fff6e5" stroke="#8c5799" stroke-width="2.5"/>
+                    <line x1="24" y1="24" x2="24" y2="12" stroke="#8c5799" stroke-width="2.5" stroke-linecap="round"/>
+                    <line x1="24" y1="24" x2="33" y2="28" stroke="#e8b860" stroke-width="2.5" stroke-linecap="round"/>
+                </svg>
+                <div>
+                    <div class="event-key">Dress</div>
+                    <div class="event-val">Smart casual · pastel friendly</div>
+                </div>
+            </div>
+        </div>
+
+        <p class="event-footer">See you there 💜</p>
+    </div>
+</section>
+
+  <script>
+    /* ===== Envelope animation — fires once, 500ms after page load ===== */
+    window.addEventListener('load', () => {
+        const target = document.querySelector('#svgAnimation');
+        if (!target) return;
+        setTimeout(() => {
+            target.classList.add('animate');
+        }, 800);
+    });
+
+    /* ===== Section 3 — horizontal parallax on scroll ===== */
+    const section3 = document.querySelector('#section3');
+    const tracks   = document.querySelectorAll('.parallax-track');
+
+    function updateParallax() {
+        if (!section3) return;
+        const rect = section3.getBoundingClientRect();
+        const vh = window.innerHeight;
+        const progress = 1 - (rect.top + rect.height) / (vh + rect.height);
+        const clamped  = Math.max(0, Math.min(1, progress));
+
+        tracks.forEach(track => {
+            const dir = track.dataset.direction === 'right' ? 1 : -1;
+            const distance = 260;
+            track.style.transform = `translateX(${dir * (clamped - 0.5) * distance * 2}px)`;
+        });
+    }
+    window.addEventListener('scroll', updateParallax, { passive: true });
+    updateParallax();
+</script>
+</body>
+</html>
