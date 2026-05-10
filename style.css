@@ -59,7 +59,7 @@ section {
     display: block;
     text-align: center;
     letter-spacing: 3px;
-    font-size: .75rem;
+    font-size: 1.35rem;
     text-transform: uppercase;
     color: var(--gold);
     font-weight: 700;
@@ -85,7 +85,7 @@ section {
 
 .animation-container {
     position: absolute;
-    top: 45vh;
+    top: 55vh;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 260px;
@@ -377,7 +377,7 @@ section {
 /* ============ Responsive ============ */
 @media (max-width: 640px) {
     .intro-text { top: 8vh; font-size: 1.1rem; max-width: 92vw; }
-    .animation-container { top: 45vh; width: 340px; max-width: 92vw; }
+    .animation-container { top: 52vh; width: 340px; max-width: 92vw; }
     .polaroid-wall { grid-template-columns: repeat(2, 1fr); gap: 2rem 1rem; }
     .polaroid { padding: 10px 10px 32px; }
     .chip { font-size: .9rem; padding: .7rem 1.2rem; }
@@ -385,4 +385,4 @@ section {
 }
 
 @media (min-width: 641px) and (max-width: 1024px) { .animation-container { width: 260px; } }
-@media (min-width: 1025px) { .animation-container { width: 280px; } }
+@media (min-width: 1025px) { .animation-container { width: 580px; top:45vh } }

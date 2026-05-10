@@ -10,8 +10,8 @@
 <script>
       
 let section1 = {
-    text1: '2025-ի շրջանավարտներ', // Class of 2025
-    text2: 'Մեկ տարի անց' // One year later
+    text1: '2025-2026 ', // Class of 2025
+    text2: 'ուսումնական տարի' // One year later
 }
 
 let section2 = {
@@ -132,31 +132,32 @@ let section5 = {
         </p> -->
     </div>
 
-    <div class="animation-container" id="svgAnimation">
-        <svg viewBox="0 0 140 200" aria-hidden="true">
-            <g class="envelope-container">
-                <rect class="envelope-body"
-                      x="-20" y="100" width="180" height="100"
-                      rx="10" ry="10" />
-                <polygon class="envelope-flap"
-                         points="10,100 70,55 130,100" />
-            </g>
+<div class="animation-container" id="svgAnimation">
+    <svg viewBox="0 0 200 220" aria-hidden="true">
+        <g class="envelope-container">
+            <rect class="envelope-body"
+                  x="10" y="100" width="180" height="100"
+                  rx="8" ry="8" />
+            
+            <polygon class="envelope-flap"
+                     points="10,100 100,55 190,100" />
+        </g>
 
-            <g class="paper-group">
-                <rect class="paper"
-                      x="-35" y="40" width="210" height="120"
-                      rx="8" ry="8" />
-                <line class="paper-line" x1="30" y1="65"  x2="110" y2="65" />
-                <text class="paper-text" x="70" y="95" text-anchor="middle"
-                      font-size="18" fill="#8c5799"
-                      font-family="Arial" font-weight="bold">Հրավիրում ենք Ձեզ</text>
-                <text class="paper-text" x="70" y="120" text-anchor="middle"
-                      font-size="11" fill="#8c5799"
-                      font-family="Arial"> մասնակցելու «ՎԵՐՋԻՆ ԶԱՆԳ» </text>
-                <line class="paper-line" x1="30" y1="145" x2="110" y2="145" />
-            </g>
-        </svg>
-    </div>
+        <g class="paper-group">
+            <rect class="paper"
+                  x="20" y="45" width="160" height="110"
+                  rx="5" ry="5" />
+            <line class="paper-line" x1="50" y1="75"  x2="150" y2="75" />
+            <text class="paper-text" x="100" y="100" text-anchor="middle"
+                  font-size="14" fill="#8c5799"
+                  font-family="Arial, sans-serif" font-weight="bold">Հրավիրում ենք Ձեզ</text>
+            <text class="paper-text" x="100" y="120" text-anchor="middle"
+                  font-size="9" fill="#8c5799"
+                  font-family="Arial, sans-serif"> մասնակցելու «ՎԵՐՋԻՆ ԶԱՆԳ» </text>
+            <line class="paper-line" x1="50" y1="135" x2="150" y2="135" />
+        </g>
+    </svg>
+</div>
 
     <div class="scroll-hint">scroll ↓</div>
 </section>
