@@ -56,7 +56,8 @@ section {
 .section-head p { color: var(--purple); font-size: 1.05rem; margin: 0; }
 
 .eyebrow {
-    display: inline-block;
+    display: block;
+    text-align: center;
     letter-spacing: 3px;
     font-size: .75rem;
     text-transform: uppercase;
