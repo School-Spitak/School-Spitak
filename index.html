@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <script>
-      
+
 let section1 = {
     text1: '2025-2026 ', // Class of 2025
     text2: 'ՈՒսումնական տարի' // One year later
@@ -17,10 +17,10 @@ let section1 = {
 let section2 = {
     text1: 'հիշում եք...', // remember when
     text2: 'Մեր թանկ պահերը', // Moments we kept
-    text3: 'Լուսանկարներ տարեգրքից. պահիր մկնիկը վրան՝ ուղղելու համար:', 
+    text3: 'Լուսանկարներ տարեգրքից. պահիր մկնիկը վրան՝ ուղղելու համար:',
     text4: 'Առաջին զանգը', // First bell (instead of Prom)
     text5: 'Հրաժեշտի հանդես', // Graduation matinee
-    text6: 'Վերջին դասը', 
+    text6: 'Վերջին դասը',
     text7: 'Էքսկուրսիա', // School trip (classic post-soviet vibe)
     text8: 'Սպորտլանդիա', // Sports finals/Olympics
     text9: 'Ամանորյա հանդես' // New Year's play/Drama club
@@ -41,10 +41,10 @@ let section3Val = {
     text12: 'Գերազանցիկի դիպլոմ', // First promotion -> Honor student diploma
     text13: 'Ծննդյան տոներ', // Engagements -> Birthday parties
     text14: 'Անգլերենի խմբակ', // Study abroad -> English club
-    text15: 'Նոր հոբբիներ', 
+    text15: 'Նոր հոբբիներ',
     text16: 'Դպրոցական միջոցառումներ', // Film festivals -> School events
     text17: 'Կարոտած օրեր', // Birthdays apart -> Days we missed each other
-    text18: '...իսկ հիմա ժամանակն է տեսնվելու ու պատմելու մնացածը:', 
+    text18: '...իսկ հիմա ժամանակն է տեսնվելու ու պատմելու մնացածը:',
 }
 
 let section4 = {
@@ -52,7 +52,7 @@ let section4 = {
     text2: 'Մեկ տարին թվերով',
     text3: 'շրջանավարտ',
     text4: 'կարդացած գրքեր', // countries visited -> books read
-    text5: 'օր առանց իրար', // days apart
+    text5: 'օր իրար Հետ', // days apart
     text6: 'ամուր ընկերություն' // friendships kept
 }
 
@@ -65,23 +65,23 @@ let section5 = {
     text6: 'Շենավանի հիմնական դպրոց',
     text7: 'Սպասում ենք բոլորին 💜'
 }
-    
+
     // Populate all sections with object values
     function populateContent() {
         // Section 1
         document.querySelector('#section1 .eyebrow').textContent = section1.text1;
         document.querySelector('#section1 .hero-title').textContent = section1.text2;
-        
+
         // Section 2
         document.querySelector('#section2 .eyebrow').textContent = section2.text1;
         document.querySelector('#section2 h2').textContent = section2.text2;
         document.querySelector('#section2 .section-head p').textContent = section2.text3;
-        
+
         const section2Captions = document.querySelectorAll('#section2 figcaption');
         section2Captions.forEach((caption, index) => {
             caption.textContent = section2['text' + (index + 4)];
         });
-        
+
         // Section 3
         document.querySelector('#section3 .eyebrow').textContent = section3Val.text1;
         document.querySelector('#section3 h2').textContent = section3Val.text2;
@@ -90,34 +90,34 @@ let section5 = {
             chip.textContent = section3Val['text' + (index + 3)];
         });
         document.querySelector('#section3 .parallax-note').textContent = section3Val.text18;
-        
+
         // Section 4
         document.querySelector('#section4 .eyebrow').textContent = section4.text1;
         document.querySelector('#section4 h2').textContent = section4.text2;
-        
+
         const statLabels = document.querySelectorAll('#section4 .stat-label');
         statLabels.forEach((label, index) => {
             label.textContent = section4['text' + (index + 3)];
         });
-        
+
         // Section 5
         document.querySelector('#section5 .eyebrow').textContent = section5.text1;
         document.querySelector('#section5 .event-title').textContent = section5.text2;
-        
+
         const eventKeys = document.querySelectorAll('#section5 .event-key');
         eventKeys[0].textContent = section5.text3;
         eventKeys[1].textContent = section5.text5;
-        
+
         const eventVals = document.querySelectorAll('#section5 .event-val');
         eventVals[0].textContent = section5.text4;
         eventVals[1].textContent = section5.text6;
-        
+
         document.querySelector('#section5 .event-footer').textContent = section5.text7;
     }
-    
+
     // Call populateContent when DOM is ready
     document.addEventListener('DOMContentLoaded', populateContent);
-    
+
 </script>
 <body>
 
@@ -138,7 +138,7 @@ let section5 = {
             <rect class="envelope-body"
                   x="10" y="100" width="180" height="100"
                   rx="8" ry="8" />
-            
+
             <polygon class="envelope-flap"
                      points="10,100 100,55 190,100" />
         </g>
@@ -152,9 +152,9 @@ let section5 = {
                   font-size="14" fill="#8c5799"
                   font-family="Arial, sans-serif" font-weight="bold">Հրավիրում ենք Ձեզ</text>
             <text class="paper-text" x="100" y="120" text-anchor="middle"
-                  font-size="9" fill="#8c5799" 
-                  font-family="Arial, sans-serif"> մասնակցելու «ՎԵՐՋԻՆ ԶԱՆԳ» 
-                  <tspan x="100" dy="15">միջոցարմանը</tspan></text>
+                  font-size="9" fill="#8c5799"
+                  font-family="Arial, sans-serif"> մասնակցելու «ՎԵՐՋԻՆ ԶԱՆԳ»
+                  <tspan x="100" dy="15">միջոցառմանը</tspan></text>
             <line class="paper-line" x1="50" y1="145" x2="150" y2="145" />
         </g>
     </svg>
